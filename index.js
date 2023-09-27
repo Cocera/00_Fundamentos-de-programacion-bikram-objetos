@@ -129,7 +129,7 @@ Pantalla.dimensiones = "1920x1080";
 
 // 25 MODIFICACION PROPIEDADES
 if (Led.encendido=true) Led.encendido=false
-else Led.encendido=true;
+else if (Led.encendido=false) Led.encendido=true;
 
 
 // 26 MODIFICACION PROPIEDADES
