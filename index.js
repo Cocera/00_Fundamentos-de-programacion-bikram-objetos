@@ -24,30 +24,59 @@ let Perro = {
 };
 
 // 05 LECTURA PROPIEDADES
+let marcaPortatil = Portatil.marca;
 
 // 06 LECTURA PROPIEDADES
+let marcaPortatil2 = Portatil["marca"];
 
 // 07 LECTURA PROPIEDADES
+let grupos = Concierto.grupos;
 
 // 08 LECTURA PROPIEDADES
+/*
+let RGB = Led["rojo, verde y azul"];
+*/
 
 // 09 MODIFICACION PROPIEDADES
+Portatil.modelo = "P345";
 
 // 10 MODIFICACION PROPIEDADES
+/*
+Concierto.cartelera = "Guns N' Roses";
+*/
 
 // 11 MODIFICACION PROPIEDADES
+Concierto.fecha = new Date();
 
 // 12 MODIFICACION PROPIEDADES
+let Objeto = {nombreArchivo:"x", copias:5, numPaginas:6};
+Impresora.imprimiendo = Objeto;
 
 // 13 DECLARACION
+let Noticia = {titular:"x", cuerpo:"x"};
 
 // 14 DECLARACION
+let Persona = {nombre:"Pepe", apellidos:"Gaston Peral", edad:24};
 
 // 15 DECLARACION
+let Avion = {
+    numPasajeros:60,
+    despegar: function() {
+        console.log("despegando")
+    },
+    volar: function() {
+        console.log("llegando al destino")
+    },
+    aterrizar: function() {
+        console.log("aterrizando")
+    }
+};
 
 // 16 DECLARACION
+let Paquete = {contenido:[Salero, Peluca, Bombillas]};
 
 // 17 DECLARACION
+let Pais = {numHabitantes:"1,5M", continente:"Europa", gentilicio:"liliputiense"};
 
 // 18 LECTURA PROPIEDADES
 
