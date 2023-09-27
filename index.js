@@ -98,9 +98,14 @@ let pixeles = Pantalla.pixeles;
 let especificaciones = Movil["especificaciones"];
 
 // 23 MODIFICACION PROPIEDADES
+Grupo.numIntegrantes = 5;
 
 // 24 MODIFICACION PROPIEDADES
+Pantalla.dimensiones = "1920x1080";
 
 // 25 MODIFICACION PROPIEDADES
+if (Led.encendido=true) Led.encendido=false;
+else if (Led.encendido=false) Led.encendido=true;
 
 // 26 MODIFICACION PROPIEDADES
+Movil.temperatura = "20º";
