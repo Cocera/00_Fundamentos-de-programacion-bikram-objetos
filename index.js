@@ -73,20 +73,29 @@ let Avion = {
 };
 
 // 16 DECLARACION
+/*
 let Paquete = {contenido:[Salero, Peluca, Bombillas]};
+*/
 
 // 17 DECLARACION
+/*
 let Pais = {numHabitantes:"1,5M", continente:"Europa", gentilicio:"liliputiense"};
+*/
 
 // 18 LECTURA PROPIEDADES
+let codError = O_Error.codigo;
 
 // 19 LECTURA PROPIEDADES
+let integrantes = Grupo.integrantes;
 
 // 20 LECTURA PROPIEDADES
+let nivelesTinta = Impresora.tinta;
 
 // 21 LECTURA PROPIEDADES
+let pixeles = Pantalla.pixeles;
 
 // 22 LECTURA PROPIEDADES
+let especificaciones = Movil["especificaciones"];
 
 // 23 MODIFICACION PROPIEDADES
 
