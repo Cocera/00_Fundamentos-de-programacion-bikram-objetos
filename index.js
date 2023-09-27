@@ -1,0 +1,68 @@
+// 01 DECLARACION
+let Coche = {marca:"Fiat", modelo:"500", matricula:"White"};
+
+// 02 DECLARACION
+let Casa = {codPostal:2480, calle:"Italia", portal:30, piso:5};
+
+// 03 DECLARACION
+/*
+let FullStackDeveloper = {};
+*/
+
+// 04 DECLARACION
+let Perro = {
+    nombre:"Paco",
+    raza:"Galgo",
+    color:"Blanco",
+    edad:3,
+    ladrar: function() {
+        console.log("Guau!");
+    },
+    popo: function() {
+        return Math.random()*3;
+    }
+};
+
+// 05 LECTURA PROPIEDADES
+
+// 06 LECTURA PROPIEDADES
+
+// 07 LECTURA PROPIEDADES
+
+// 08 LECTURA PROPIEDADES
+
+// 09 MODIFICACION PROPIEDADES
+
+// 10 MODIFICACION PROPIEDADES
+
+// 11 MODIFICACION PROPIEDADES
+
+// 12 MODIFICACION PROPIEDADES
+
+// 13 DECLARACION
+
+// 14 DECLARACION
+
+// 15 DECLARACION
+
+// 16 DECLARACION
+
+// 17 DECLARACION
+
+// 18 LECTURA PROPIEDADES
+
+// 19 LECTURA PROPIEDADES
+
+// 20 LECTURA PROPIEDADES
+
+// 21 LECTURA PROPIEDADES
+
+// 22 LECTURA PROPIEDADES
+
+// 23 MODIFICACION PROPIEDADES
+
+// 24 MODIFICACION PROPIEDADES
+
+// 25 MODIFICACION PROPIEDADES
+
+// 26 MODIFICACION PROPIEDADES
